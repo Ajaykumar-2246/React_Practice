@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.Accordion {
+  width: 500px;
+  background-color:rgb(38, 35, 35);
+  margin: 30px;
+  padding:10px;
+  border-radius: 5px;
+}
+.accordion-header {
+  border: 1px white;
+  border-style:solid none none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.accordion-item:last-child {
+  border-bottom: 1px solid white !important;
+}
+.title {
+  width:460px;
+  padding:10px;
+  color:white;
+}
+.accordion-body{
+  color:white;
+}
+.arrow.rotate {
+  transform: rotate(180deg);
+}

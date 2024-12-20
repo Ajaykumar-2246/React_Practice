@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width:100%;
+}
+.footer{
+    min-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-tilte{
+    width:100% !important;
+}
+
+.col-4 img{
+    min-height:max-content !important;
+}

@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    min-height: 200px;
+    display: flex;
+}
+.brown{
+    background-color: #B5651D;
+}
+.color{
+    background-color: #FF7276;
+}

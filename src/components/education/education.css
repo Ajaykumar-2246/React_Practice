@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+.education {
+  width: 96%;
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-left: 25px;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .education {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .education {
+    padding: 10px;
+    margin-left: 10px;
+  }
+}
+.education-container {
+  width: 50%;
+  box-shadow: 0 0 0.1rem 0.09rem rgba(0, 0, 0, 0.075);
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  .education-container {
+    width: 100%;
+  }
+}
+.education-item {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.education-item .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 15px;
+  }
+}
+.education-item p {
+  padding: 5px;
+  margin: 3px;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .education-item p {
+    flex-wrap: wrap;
+  }
+}
+
+.education-item span {
+  font-weight: bold;
+  padding-right:10px;
+}
+
+.education-item ol li{
+  margin-left: 10px;
+}
+.experience {
+  width: 50%;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 0.1rem 0.09rem rgba(0, 0, 0, 0.075);
+}
+@media screen and (max-width: 786px) {
+  .education-item ol li{
+    margin-left: 20px;
+    padding-top:5px;
+  }
+  .experience {
+    width: 100%;
+  }
+}
+.experience ol {
+  border: 1px solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 10px;
+}
+.experience li {
+  margin-left: 20px;
+  padding-top:5px;
+}

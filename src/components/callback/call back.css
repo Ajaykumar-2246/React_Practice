@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+h3{
+    height: 10px;
+}
+.callback{
+    width:160px;
+    min-height: 150px;
+    background-color: cornflowerblue;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+.btn{
+    display:block;
+    width:100px;
+    height: 40px;
+    border:none;
+    background-color: darksalmon;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.count{
+    display: block;
+}
+.dis{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 10px;
+}

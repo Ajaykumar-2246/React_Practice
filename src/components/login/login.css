@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(126, 126, 194);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: Georgia, serif;
+    
+}
+.header{
+    text-align: center;
+}
+
+.login{
+    display:flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width:270px;
+    border-radius: 5px;
+    background-color: rgb(229, 156, 156);
+}
+form{
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+form >label {
+    font-weight: bold;
+    margin:10px;
+}
+.input{
+    width:85%;
+    margin:10px;
+    box-sizing: border-box;
+    outline:none;
+}
+.input,.button{
+    border: none;
+    padding: 5px;
+    border-radius:5px;
+}
+.button{
+    margin: 10px;
+    margin-left:40%;
+    background-color: rgb(106, 106, 239);
+    cursor: pointer;
+}
+.hidden-msg{
+    color:red;
+}

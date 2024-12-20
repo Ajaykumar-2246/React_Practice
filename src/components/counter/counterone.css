@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(77, 138, 237);
+}
+.Counterone{
+     background-color: lightcoral;
+     min-height:100px;
+     width:250px;
+     padding:10px;
+     margin-top: 30px;
+     border-radius: 10px;
+}
+.countNumber{
+    text-align: center;
+    padding: 10px;
+}
+.Counterone>button{
+    padding: 5px;
+    margin:4px;
+    background-color: rgb(129, 129, 235);
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.Counterone>h3,h4{
+    text-align: center;
+}

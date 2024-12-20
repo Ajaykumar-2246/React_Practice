@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(135, 55, 55);
+    display:flex;
+}
+.ref
+{
+    display: flex;
+    background-color: rgb(220, 162, 121);
+    width:150px;
+    min-height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:30px;
+    border-radius: 15px;
+}
+.ref>h3{
+    width:150px;
+    display: flex;
+    justify-content: center;
+}
+.ref>button{
+    text-align: center;
+    height: 30px;
+    background-color: coral;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

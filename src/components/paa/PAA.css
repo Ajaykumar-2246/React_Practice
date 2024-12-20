@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  display: flex;
+}
+.querie {
+ min-width:550px;
+  min-height: 250px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+.section {
+  border: 1px solid rgb(35, 35, 35);
+  border-left: none;
+  border-right: none;
+  display: flex;
+}
+.line {
+  border-top: none;
+}
+.content{
+    width:500px;
+}
+svg{
+    margin-top: 20px;
+}

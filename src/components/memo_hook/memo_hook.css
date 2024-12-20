@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    min-height: 150px;
+    width: 200px;
+    background-color: rgb(126, 233, 236);
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.container>h3{
+    width:100%;
+    height: 20px;
+    text-align: center;
+}
+.dis{
+    font-weight: 400;
+}
+.btn{
+    padding:10px;
+    margin-right: 10px;
+    background-color: rgb(138, 138, 249);
+    border: none;
+    border-radius: 5px;
+}

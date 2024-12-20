@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+
+  
+  .details {
+    font-weight:500px;
+    display:block;
+  }
+  
